@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.w674gPqyXQDs0r7QXWLLRQHaEK&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    margin: 10px 100px;
+}
+
+.header{
+    display: flex;
+}
+
+.header ul{
+    display: flex;
+}
+
+.header ul li{
+    margin: 40px 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.header ul li a{
+    color: rgb(255, 255, 255);
+}
+
+.header ul li a:hover{
+    border: 1px solid gray;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    color: rgb(245, 168, 24);
+    /* text-decoration: underline; */
+}
+
+.content{
+    margin: auto;
+    width: 80%;
+}
+
+.content p{
+    margin-top: 130px;
+    color: rgb(218, 198, 20);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 180px;
+    padding: 5px 5px;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    margin-right: 5px;
+    border-radius: 30%;
+}
+
+button:hover{
+    border: 1px solid orange;
+    cursor: pointer;
+}
